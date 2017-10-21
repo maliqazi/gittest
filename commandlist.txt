@@ -1,0 +1,16 @@
+md gittest
+cd gittest
+git init
+copy NUL index.html
+copy NUL styles.css
+copy aboutMe.txt
+git add -a
+git commit -m "initial commit"
+git add -a
+git commit -m "updated aboutMe"
+git add -a
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert commit -n HEAD
+git revert -n 72d5c9057e7aa16c014d721e1c4312865f5505cc
+git commit -m "revert 72d5c9057e7aa16c014d721e1c4312865f5505cc"
